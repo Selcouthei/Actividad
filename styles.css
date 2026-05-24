@@ -1,0 +1,23 @@
+/* HU05: Refactorización de estilos globales */
+
+/* Reseteo básico para que el diseño sea más limpio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global para la fuente */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Un estilo para un contenedor principal, por si lo necesitas luego */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
